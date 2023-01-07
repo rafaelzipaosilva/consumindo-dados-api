@@ -1,11 +1,3 @@
-console.log('Mandando ou pro amigo');
+var consultaCEP = fetch('https://viacep.com.br/ws/01001000/json/');
 
-function mandaMensagem() {
-    console.log('Tudo bem?');
-    console.log('Vou tem mandar uma solicitação');
-    console.log('Solicitação recebida!');
-}
-
-setTimeout(mandaMensagem, 5000);
-
-console.log('Tchau tchau!')
+console.log(consultaCEP);
